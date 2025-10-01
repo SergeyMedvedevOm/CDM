@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="600c8626-bb45-4a6c-8c5e-7d5a980a0675">
+  <producedTypes>
+    <selectionType typeId="2d3dcc17-ffcc-468a-966d-a4bf4af80e7e" valueTypeId="5c35a757-83b8-4070-b88b-4ffbfb461ac9"/>
+    <listType typeId="7a19f0e2-b1a7-4e57-90e3-be020182becb" valueTypeId="e6a2433c-9724-4944-bb0f-840f1d176bfb"/>
+    <managerType typeId="2f7fbb7c-2ebc-40b7-9bdf-5f3204dc469a" valueTypeId="f3c3f67e-2b78-47fa-9b58-b633bb326010"/>
+    <recordSetType typeId="718fecad-9612-4974-b5ca-e0ca2191425c" valueTypeId="8f347609-f42d-42e2-a670-0ca4240f0898"/>
+    <recordKeyType typeId="b4b5d019-f2dd-4d63-8548-b26087b05339" valueTypeId="073f3b07-8511-4ded-8615-78b1d70bd3e7"/>
+    <recordType typeId="baabd1ee-e230-4e55-88ae-49d158d3fcac" valueTypeId="11611321-74a0-4b90-bb6c-265458f07428"/>
+    <recordManagerType typeId="cb030bca-996e-4bfe-9b91-2ed3197d0727" valueTypeId="e70b4163-04af-4feb-996a-774959792034"/>
+  </producedTypes>
+  <name>ВыполненныеРассылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполненные рассылки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0346f694-d128-4854-935f-76e590ec4c3a">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b72e1f13-e194-451c-a531-87a2ad18e609">
+    <name>ХранилищеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище данных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХранилищеДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4f2c3013-6919-456f-877d-41386055c026">
+    <name>ЭлектронноеПисьмоИсходящее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронное письмо исходящее</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="86903a17-7c69-434e-8020-d2f1280e1d03">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3e532b08-6880-4d25-a5e7-255b958ac433">
+    <name>Рассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительныеКонстанты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

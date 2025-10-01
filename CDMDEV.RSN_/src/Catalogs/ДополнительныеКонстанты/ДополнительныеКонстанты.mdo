@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d7cdb39-b913-4bd1-b39d-54b4fea0123d">
+  <producedTypes>
+    <objectType typeId="8f635c35-350e-4598-a047-481051792c01" valueTypeId="7a2b0a19-ba5e-4f79-98c1-ec5ae3d99480"/>
+    <refType typeId="3f3536e6-3581-4a87-9428-6f163d87f3bd" valueTypeId="e550693d-f787-4526-b204-25868615ff2d"/>
+    <selectionType typeId="0b5a6fb2-b341-4922-9e83-72ce869c8936" valueTypeId="0c30f379-9721-4d1e-b0fc-82b827cdb61e"/>
+    <listType typeId="9c69ae1d-f7b6-42e5-a6db-ebb3e69fd5e3" valueTypeId="02d78490-4b55-4e61-8174-85249d6735db"/>
+    <managerType typeId="ef93fb27-0150-4081-8162-b93d300d5909" valueTypeId="22f4985e-9f3d-4ee5-a580-b358d9825c71"/>
+  </producedTypes>
+  <name>ДополнительныеКонстанты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные константы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДополнительныеКонстанты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДополнительныеКонстанты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="778c98fe-2139-4921-b078-b3308f29a0be">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d372fa76-1161-4a5c-9a19-d5fb16a82cdc">
+    <producedTypes>
+      <objectType typeId="c0ac8104-5f7e-4263-a4da-754071f74e5b" valueTypeId="910c85ec-706a-44a0-bb49-04b6ec253542"/>
+      <rowType typeId="cbf127c3-af58-48bb-96e8-7d0515d08333" valueTypeId="2739e33b-81c7-4c61-9aa5-39964c626fce"/>
+    </producedTypes>
+    <name>Значения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения</value>
+    </synonym>
+    <attributes uuid="874639d0-cc00-4252-b371-39eddf9f6315">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="34fadf72-b615-4b9c-abb2-961898a4aabd">
+      <name>ЗначениеХранилище</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение хранилище</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e08dbcc2-9bd1-4ffe-9702-708a91fa472a">
+      <name>ЗначениеВХранилищеЗначений</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение в хранилище значений</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

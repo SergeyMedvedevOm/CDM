@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1748ce3-0819-4363-988b-2b22879a14aa">
+  <producedTypes>
+    <objectType typeId="12a49aa3-e563-4136-879b-f8bddb996ad5" valueTypeId="fc2d7963-6900-40d3-9c5d-fe9611489795"/>
+    <managerType typeId="49be4a47-0ddf-479e-a791-0cc1c5999cd3" valueTypeId="c7c2724d-9775-4cb5-9501-96b5b141b94c"/>
+  </producedTypes>
+  <name>um_ЗаполениеСведенийОбОбъектахМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение сведений об объектах метаданных (um)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Filling information about metadata objects (um)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.um_ЗаполениеСведенийОбОбъектахМетаданных.Form.Форма</defaultForm>
+  <forms uuid="1d41e812-38c4-49e3-81eb-854c5f28f32a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

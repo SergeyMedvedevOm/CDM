@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c47b597b-d8c7-4866-ac43-012c84f05cec">
+  <producedTypes>
+    <objectType typeId="3a363b02-e7ea-447c-b24b-f454a2fbaba1" valueTypeId="5e070d97-2df4-4f7e-819d-3c8f38a15604"/>
+    <refType typeId="0cd64fa1-c480-4710-8624-065ae25a19c5" valueTypeId="a268f8e4-da82-4174-b2e4-90f5cc70db58"/>
+    <selectionType typeId="11d3dec3-ac2b-4a72-aa6b-3fbcacc1da4e" valueTypeId="f5bab917-8330-480a-b2b1-8121939102be"/>
+    <listType typeId="80940e23-6bf7-4383-befc-8ac61e77e3ac" valueTypeId="ea86edb7-c278-44cc-9d80-b54871daa50d"/>
+    <managerType typeId="594baa76-ecc9-4dbb-a036-51e4101fd628" valueTypeId="a293b936-2bb3-4c71-9635-7368886c1de4"/>
+  </producedTypes>
+  <name>КомплектыПоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплекты поставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КомплектыПоставки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КомплектыПоставки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КомплектыПоставки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КомплектыПоставки.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="e9c4a1aa-dd1a-4bd4-8d52-a88aeddf95f7">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ff763c3a-0f38-4662-b824-928f2b9d0fea">
+    <name>СерверПриложений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер приложений</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерверПриложений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4c707b39-65e2-4344-aaa6-200c9ecbff5d">
+    <name>ТипЛицензии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип лицензии</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыЛицензий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1eccb14-4ce0-479d-8b12-82606c0a6063">
+    <name>LicData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Lic data</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4dd143b3-69be-4b2e-83c6-702c1c343f2b">
+    <name>КоличествоКлиентскихСеансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество клиентских сеансов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="a3ee0f27-caa7-4302-97a3-ae985a126bf4">
+    <producedTypes>
+      <objectType typeId="dcda3324-8a61-447c-8412-e6c75e92a052" valueTypeId="92203c1f-b518-46a3-81eb-a62da5128bb6"/>
+      <rowType typeId="3785915f-c55d-4858-8eaf-3aa499e47db5" valueTypeId="214c5f9d-a0fc-4bba-b913-b0002ac99b06"/>
+    </producedTypes>
+    <name>Пинкоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пинкоды</value>
+    </synonym>
+    <attributes uuid="15e1dc63-ea5a-4777-968a-0746eb692418">
+      <name>Пинкод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пинкод</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пинкод</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9caa4b5b-7a19-4c04-b961-4d0b855c2e09">
+      <name>СтатусПинкода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус пинкода</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СтатусыПинкодов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="50cae6fc-9c5b-467d-b310-22aace2de047">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0de7ef33-96e4-4195-b7be-886d4a4bdbe5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

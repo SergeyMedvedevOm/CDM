@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3e6ca8f8-dc58-472e-9580-07d5b24fe2a3">
+  <name>БирюзовыйЦвет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бирюзовый цвет</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c3c14cc2-25af-4ed5-bece-284c034f1770"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9f2ecf1e-0077-4c8b-bda2-63e47ba6f5b1"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c3900fa7-9038-46c6-ae58-10eacb722f96"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4a4fc4f6-743d-4dc1-aedb-dc09815cff3e"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7858b9bf-3163-4d22-a413-67ae8384bd3e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="cef40656-5c35-4006-98eb-34e89fe3d05f"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e7f08e48-2db9-4c26-9466-109d99aa9b3e"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ЦБ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ЦБ_ОсновнаяРоль</defaultRoles>
+  <defaultStyle>Style.ЦБ_Стиль</defaultStyle>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="8d1940e2-6c88-4d6e-b01c-ad825cd53cdf" extendedConfigurationObject="8ba477e4-722c-4543-a7f7-4a8a8cb88192">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styles>Style.ЦБ_Стиль</styles>
+  <roles>Role.ЦБ_ОсновнаяРоль</roles>
+</mdclass:Configuration>

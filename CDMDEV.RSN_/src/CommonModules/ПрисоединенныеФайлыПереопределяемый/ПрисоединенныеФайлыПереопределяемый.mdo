@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59845fc4-9cfb-4da6-8572-66e5ee0cf447">
+  <name>ПрисоединенныеФайлыПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединенные файлы переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="039bf79d-9764-4445-a5ad-496239fac28a">
+  <name>um</name>
+  <synonym>
+    <key>ru</key>
+    <value>um</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>um</value>
+  </synonym>
+  <rootURL>um</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="e2cd0355-31e5-4c85-894a-d15e848f6879">
+    <name>metadata</name>
+    <synonym>
+      <key>ru</key>
+      <value>Metadata</value>
+    </synonym>
+    <template>/metadata</template>
+    <methods uuid="18a276a0-fd95-48c5-bd76-f739606cc26a">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>metadata_post</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="9b6dc3e8-c430-4f52-b276-2ca6c8846f55">
+    <name>metadata_objects</name>
+    <synonym>
+      <key>ru</key>
+      <value>metadata objects</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>metadata objects</value>
+    </synonym>
+    <template>/{metadata}/{objectname}</template>
+    <methods uuid="7ff2ca92-4a14-4c1c-a43a-a83b5dd9f2c5">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Get</value>
+      </synonym>
+      <handler>objects_get</handler>
+    </methods>
+    <methods uuid="6a051282-53ab-41df-a8e0-7443586e4889">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>objects_post</handler>
+    </methods>
+    <methods uuid="fef04352-a371-4e57-aa7f-1d1e6e89f877">
+      <name>put</name>
+      <synonym>
+        <key>ru</key>
+        <value>Put</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Put</value>
+      </synonym>
+      <httpMethod>PUT</httpMethod>
+      <handler>objects_put</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="d06438a4-4462-4a1b-8367-62658bf06d23">
+    <name>message</name>
+    <synonym>
+      <key>ru</key>
+      <value>Message</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Message</value>
+    </synonym>
+    <template>/{message_id}</template>
+    <methods uuid="044e799d-163a-4b15-b5d3-7f3f9604824c">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>get</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>get</value>
+      </synonym>
+      <handler>message_get</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="18c26164-cc8e-4cef-8ee4-5171cdbd33f1">
+    <name>ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="9635224c-c301-4295-8e6a-9da392339e60">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Get</value>
+      </synonym>
+      <handler>ping</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

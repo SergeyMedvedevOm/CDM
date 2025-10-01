@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9049a0b5-72b5-4b99-947c-969d0ab6c049">
+  <name>RSN_ОбщаяКартинка</name>
+  <synonym>
+    <key>ru</key>
+    <value>RSN общая картинка</value>
+  </synonym>
+</mdclass:CommonPicture>

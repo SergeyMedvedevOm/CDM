@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ed3f743-90c8-466b-8a30-ad1a8bbd191a">
+  <name>um_httpСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>http-сервис (um)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>http-service (um)</value>
+  </synonym>
+</mdclass:Role>

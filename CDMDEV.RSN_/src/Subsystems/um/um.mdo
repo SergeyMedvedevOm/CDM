@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2131f91f-5ae1-4a3a-847c-b9b4e4fed81d">
+  <name>um</name>
+  <synonym>
+    <key>ru</key>
+    <value>Um</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>HTTPService.um</content>
+  <content>Role.um_httpСервис</content>
+  <content>Catalog.um_ОбъектыМетаданных</content>
+  <content>DataProcessor.um_ЗаполениеСведенийОбОбъектахМетаданных</content>
+  <content>InformationRegister.um_ОчередьСообщений</content>
+  <content>InformationRegister.um_РезультатОбработкиСообщений</content>
+  <content>CommonModule.um_httpСервис</content>
+</mdclass:Subsystem>

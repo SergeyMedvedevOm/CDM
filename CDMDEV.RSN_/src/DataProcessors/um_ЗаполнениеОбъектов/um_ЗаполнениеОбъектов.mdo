@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fac68957-b092-47c3-9284-3c8ae4b47401">
+  <producedTypes>
+    <objectType typeId="759dcf01-97d7-4949-a236-46b341b3e204" valueTypeId="aa567bde-f04c-4001-9863-8c65362c6487"/>
+    <managerType typeId="d28d1945-e4c9-4a81-83b7-741ebe16b4fc" valueTypeId="1dbab6a9-314b-425d-8386-3ef884325da8"/>
+  </producedTypes>
+  <name>um_ЗаполнениеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение объектов (um)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Filling objects (um)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

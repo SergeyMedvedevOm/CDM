@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d8a68b5-6f64-4776-9511-2635b12fdc1b">
+  <name>RSN</name>
+  <synonym>
+    <key>ru</key>
+    <value>Routine system notifications</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.RSN_ОбщаяКартинка</picture>
+  </picture>
+  <content>InformationRegister.ВыполненныеРассылки</content>
+  <content>Catalog.ДополнительныеКонстанты</content>
+  <content>Catalog.ХранилищеДанных</content>
+  <content>InformationRegister.ВыполнениеРегламентныхЗаданий</content>
+  <content>Catalog.РассылкиОтчетов</content>
+</mdclass:Subsystem>
